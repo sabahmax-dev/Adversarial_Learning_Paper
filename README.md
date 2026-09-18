@@ -36,7 +36,7 @@ In this paper, the author first noticed the existence of *adversarial examples* 
 
 ## Attacks
 
-In this category, the author usually luanch an attack to an classifier model, trained using CNN or other machine learning algorithms. A typical way to attack is to add some kind of small **noise** directly to the matrix (or image) and feed it into the target classifier, then get a different (false) classification result.
+In this category, the author usually launches an attack to an classifier model, trained using CNN or other machine learning algorithms. A typical way to attack is to add some kind of small **noise** directly to the matrix (or image) and feed it into the target classifier, then get a different (false) classification result.
 
 * **FGSM** : Explaining and Harnessing Adversarial Examples 
 * **RAND + FGSM** : Practical Black-Box Attacks against Machine Learning 
@@ -119,7 +119,3 @@ Papers:
 * On Detecting Adversarial Perturbations, **ICLR 2017**, [[paper](https://openreview.net/pdf?id=SJzCSf9xg)]
 * **Defence** Mitigating adversarial effects through randomization **defend by randomly padding/resizing/perturbing (denoising)**
 * Robust Linear Regression Against Training Data Poisoning, **AISec@CCS 17** , [ [paper](https://people.eecs.berkeley.edu/~liuchang/paper/aisec17-poisoning.pdf) ]
-
-
-
-
